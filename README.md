@@ -1,5 +1,5 @@
-#Traffic Generator - Usage Guide
-###The Traffic Generator is a command-line tool that allows you to generate traffic to perform fault finding, connectivity testing, and measure network performance. It supports two modes of operation: sending network packets or making web (curl) requests.
+# Traffic Generator - Usage Guide
+### The Traffic Generator is a command-line tool that allows you to generate traffic to perform fault finding, connectivity testing, and measure network performance. It supports two modes of operation: sending network packets or making web (curl) requests.
 
 Prerequisites
 Before using the Traffic Generator, ensure that you have the following:

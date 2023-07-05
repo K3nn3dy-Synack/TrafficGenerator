@@ -1,6 +1,12 @@
 # Traffic Generator - Usage Guide
 #### The Traffic Generator is a command-line tool that allows you to generate traffic to perform fault finding, connectivity testing, and measure network performance. It supports two modes of operation: sending network packets or making web (curl) requests.
 
+![image](https://github.com/K3nn3dy-Synack/TrafficGenerator/assets/109967965/71a0b56b-37b9-4a21-aa24-b4b54d5c42f9)
+![image](https://github.com/K3nn3dy-Synack/TrafficGenerator/assets/109967965/d4b67151-91a9-4132-9099-2623327cf27e)
+![image](https://github.com/K3nn3dy-Synack/TrafficGenerator/assets/109967965/41a81270-6962-487e-a09d-47b5f941ff5a)
+![image](https://github.com/K3nn3dy-Synack/TrafficGenerator/assets/109967965/5f816ed9-e4ad-468f-a9e6-ec0d6d6ec6f2)
+
+
 **Prerequisites**
 Before using the Traffic Generator, ensure that you have the following:
 
@@ -20,6 +26,12 @@ Run the following command:
 ```
 python trafficgenerator.py <destination_ip> [--interface <interface_name>] [--port <destination_port>] [--count <packet_count>] [--web]
 Replace <destination_ip> with the IP address of the destination you want to send traffic to.
+```
+Example usage:
+```
+python3 trafficgenerator.py 192.168.1.254 --interface en0 --port 80 --count 20 --web
+python3 trafficgenerator.py 192.168.1.254 --interface en0 --port 22 --count 2000
+
 ```
 
 Optional arguments:
